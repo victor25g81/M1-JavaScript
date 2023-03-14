@@ -1,0 +1,16 @@
+¿Cuál propiedad se utiliza para contar el número de caracteres de una cadena de caracteres?
+
+
+String.length
+La propiedad length de un objeto String representa la longitud de una cadena
+
+USO BASICO
+
+var x = 'Mozilla';
+var empty = '';
+
+console.log('Mozilla is ' + x.length + ' code units long');
+/* "Mozilla is 7 code units long" */
+
+console.log('The empty string has a length of ' + empty.length);
+/* "The empty string has a length of 0" */

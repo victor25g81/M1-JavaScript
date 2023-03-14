@@ -1,0 +1,60 @@
+Ejercicio 29. ¿Cómo comprobar si un carácter está presente en una palabra o frase 
+
+vamos a ver cómo encontrar o buscar un carácter en una cadena usando JavaScript. 
+Para ello podemos usar los métodos includes, search, indexOf y lastIndexOf.
+
+Usando el método includes;
+Todos los arrays y las cadenas de JavaScript incluyen el método includes de forma nativa, 
+que acepta uno o más caracteres como parámetros.  
+El método devolverá true si la cadena contiene el carácter especificado, o false en caso contrario:
+
+'Esto es una cadena'.includes('a'); // true
+'Esto es una cadena'.includes('i'); // false
+
+El método includes es sensible a las mayúsculas, por lo que, por ejemplo, el carácter A no será el mismo 
+que el carácter a.
+
+Usando el método indexOf
+Si también necesitas encontrar la posición en la que se encuentra el
+carácter, tendrás que usar el método indexOf, que devolverá la
+posición en la que se ha encontrado el carácter dentro de la cadena,
+o -1 en caso de que no esté presente:
+
+'Esto es una cadena'.indexOf('E'); // 0
+'Esto es una cadena'.indexOf('o'); // 3
+'Esto es una cadena'.indexOf('z'); // -1
+
+El método indexOf también es sensible a las mayúsculas, por lo que el carácter E no es el mismo que el carácter e.
+
+En caso de existir varias ocurrencias, el método indexOf devolverá solamente la primera de ellas:
+
+'Esto es una cadena'.indexOf('e'); // 5
+'Esto es una cadena'.lastIndexOf('e'); // 15
+
+
+Usando el método lastIndexOf
+
+Si en lugar de encontrar la posición de la primera ocurrencia de un carácter quieres encontrar la última,
+ debes usar el método lastIndexOf. Del mismo modo que el método indexOf, en caso de que el carácter 
+ no se encuentre en la cadena, el método devolverá el valor -1:
+
+ 'Esto es una cadena'.lastIndexOf('E'); // 0
+'Esto es una cadena'.lastIndexOf('a'); // 17
+'Esto es una cadena'.lastIndexOf('z'); // -1
+
+El método lastIndexOf también es sensible a las mayúsculas. Al igual que el método indexOf, en caso de existir varias 
+ocurrencias, el método lastIndexOf devolverá solamente la última de ellas.
+
+Usando el método search
+
+El método search de JavaScript permite buscar una cadena en el interior de una cadena.
+ Si la subcadena se encuentra, el método search devolverá la posición del primer carácter de la subcadena 
+ en el interior de la cadena. Si la subcadena no se encuentra, devolverá -1.
+
+ 'Esto es una cadena'.search('E'); // 0
+'Esto es una cadena'.search('o'); // 4
+'Esto es una cadena'.search('z'); // -1
+
+Al igual que el método indexOf, en caso de existir varias ocurrencias, el método search devolverá solamente la primera de ellas:
+
+'Esto es una cadena'.search('e'); // 5

@@ -1,0 +1,7 @@
+Ejercicio 27. ¿Cuáles formas existen para crear una cadena de caracteres?
+
+En JavaScript, una cadena de caracteres es un tipo de datos que representa una secuencia de caracteres 
+que puede consistir de letras, números, símbolos, palabras o frases.
+
+Las cadenas de caracteres se utilizan para representar datos de texto y se definen mediante comillas sencillas 
+('), comillas dobles (") o comillas inversas (``):

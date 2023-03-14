@@ -1,0 +1,8 @@
+¿Cuáles tipos de sentencias condicionales existen en JavaScript?
+
+Tres son las Sentencias Condicionales en Javascript:
+
+*if
+*else
+*else if
+* switch !

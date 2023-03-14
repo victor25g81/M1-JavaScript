@@ -1,0 +1,8 @@
+//Ejercicio 35. ¿Cuál función del objeto String (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
+//nos permite realizar reemplazos individuales y masivos?
+
+R = El método replace() devuelve una nueva cadena con algunas o todas las coincidencias de un patrón ,
+ siendo cada una de estas coincidencias reemplazadas por remplazo . El patrón puede ser una cadena o una 
+ RegExp , y el reemplazo puede ser una cadena o una función que será llamada para cada coincidencia.
+
+ 

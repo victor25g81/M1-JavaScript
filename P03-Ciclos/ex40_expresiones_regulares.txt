@@ -1,0 +1,4 @@
+Ejercicio 40. ¿Qué son las expresiones regulares?
+
+R= Las expresiones regulares son patrones que se utilizan para hacer coincidir combinaciones de caracteres 
+en cadenas. En JavaScript, las expresiones regulares también son objetos.

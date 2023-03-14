@@ -1,0 +1,29 @@
+1. ¿Cuáles son los ciclos que existen en JavaScript?
+
+Rta:
+
+while
+for
+do...while
+
+2. ¿Cuáles variaciones del ciclo for existen?
+
+2.1 for con iteración por índices:
+
+for(let i = 0; i < numeros.length; ++i) {
+
+}
+
+2.2 for de iteración de elementos:
+
+let nombres = ['Víctor', 'Marcela', 'Pedro', 'Juan', 'Sofía'];
+
+for(const nombre of nombres) {
+    console.log(nombre);
+}
+
+2.3 for de itearción de índices:
+
+for(const i of nombres) {
+    console.log(i, nombres[i]); 0, 'Víctor'; 1, 'Marcela'; 2, 'Pedro'; ...
+}
