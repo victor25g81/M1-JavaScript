@@ -1,0 +1,7 @@
+¿Cómo se accede a las llaves de un objeto?
+
+myComputer['made']  = 'Dell';
+myCar['model'] = 'Dell2190';
+myCar['year']  = 2022;
+
+console.log(myComputer['made']);    // Dell

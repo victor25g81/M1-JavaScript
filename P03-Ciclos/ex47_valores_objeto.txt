@@ -1,0 +1,5 @@
+¿Cómo se accede a los valores de un objeto?
+
+El método Object.values()
+
+devuelve un array con los valores correspondientes a las propiedades enumerables de un objeto.

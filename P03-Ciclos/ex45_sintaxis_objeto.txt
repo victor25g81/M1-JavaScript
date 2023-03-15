@@ -1,0 +1,3 @@
+ ¿Cuál es la sintaxis para crear un objeto en JavaScript?
+
+var mycomputer = new Object();

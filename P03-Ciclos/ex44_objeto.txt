@@ -1,0 +1,6 @@
+¿Qué es un objeto en javascript?
+
+un objeto es una coleccion de propiedades, el valor de una propiedad puede ser una funcion
+ademas de objetos predefinidos podemos definir nuestros propios objetos.
+
+
