@@ -1,0 +1,20 @@
+Ejercicio 58. ¿Qué es la programación funcional?
+
+La programación funcional (PF) es un paradigma de programación al igual que la programación orientada a objetos
+ (POO). La PF se basa en cálculo lambda y concretamente en composición de funciones puras para modelar las
+  soluciones de software
+
+la programación funcional es un paradigma de programación declarativa basado en el uso de verdaderas funciones
+ matemáticas.
+
+Así las características que definen al paradigma funcional hoy por hoy son las siguientes:
+
+No hay estado global.
+Todas las funciones son puras: Dado un mismo input siempre devolvemos el mismo output.
+Todos los valores son inmutables: Lo único que podemos hacer es generar nuevos valores.
+No hay bucles: La iteración se realiza usando recursividad.
+Como el modelo de cálculo lambda carecía de “cinta” para conservar el estado del programa, este se tenía que
+ ir regenerando a través de la composición de funciones y la recursividad.
+
+Un buen ejemplo de cómo podemos crear cualquier cosa usando funciones es la lógica combinatoria, 
+una variante del cálculo lambda que provee un set limitado de funciones combinadoras:

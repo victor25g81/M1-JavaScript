@@ -1,0 +1,13 @@
+//Ejercicio 80. Describir las siguientes etiquetas/elementos:
+- !doctype - es una declaracion que se incluye al inicio del html para indicar al navegador web
+  el tipo de documento que se esta utilizando.
+- html Los archivos HTML pueden ser creados utilizando cualquier editor de texto, desde simples programas 
+  como el Bloc de notas hasta entornos de desarrollo web más avanzados como Visual Studio Code
+- script - es el lenguaje de programacion que se utilizara para darle funcionalidad a la web
+- main - es una etiqueta html que se utiliza para indicar el contenido principal de una pagina web.
+- article - es una etiqueta html5 que se utiliza para definir un contenido autonomo en una pagina web.
+- span - es una etiqueta de html que se utiliza para aplicar estilos o atributos a un fragmento de texto en linea.
+- body - es el cuerpo principal de una pagina web , donde se especifican parrafos, colores, clases etc
+- figure - es una etiqueta en html5 que se utiliza para agrupar cualquier tipo de contenido multimedia, como
+  imagenes, graficos, ilustraciones, diagramas, audio, video etc.
+  

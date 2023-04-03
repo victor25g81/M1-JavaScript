@@ -1,0 +1,9 @@
+Ejercicio 66. ¿Cómo iterar las llaves de un objeto?
+
+ puedes iterar las llaves de un objeto usando un bucle for...in. 
+
+ const miObjeto = { a: 1, b: 2, c: 3 };
+
+for (const key in miObjeto) {
+  console.log(key); // Imprime "a", "b" y "c" en consola
+}

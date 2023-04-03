@@ -1,0 +1,38 @@
+En JavaScript, no hay una diferencia real entre la palabra clave "class" y una función de clase. 
+La palabra clave "class" es simplemente una sintaxis más clara y concisa para definir una función constructora 
+y su prototipo.
+
+Antes de la introducción de las clases en JavaScript (a partir de la versión ES6), se utilizaban funciones
+constructoras y prototipos para simular el comportamiento de las clases en la programación orientada a objetos.
+La sintaxis de una función de clase sería similar a esto:
+
+function Animal(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+Animal.prototype.speak = function() {
+  console.log(`${this.name} makes a noise.`);
+}
+
+En la sintaxis anterior, la función constructora "Animal" tiene dos parámetros "name" y "age", y el método "speak" se agrega al prototipo de la función.
+
+La sintaxis con la palabra clave "class" es más clara y fácil de leer:
+
+class Animal {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+
+En esta sintaxis, la palabra clave "class" se utiliza para definir una clase llamada "Animal". 
+La función constructora y los métodos se definen dentro del cuerpo de la clase.
+
+Entonces, en resumen, la principal diferencia entre la palabra clave "class" y una función de clase es la sintaxis utilizada para definir la clase y sus métodos. La palabra clave "class" proporciona una
+sintaxis más clara y fácil de leer para la definición de clases en JavaScript. Sin embargo, 
+en términos de funcionalidad, ambas son equivalentes.

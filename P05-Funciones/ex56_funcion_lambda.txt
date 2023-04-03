@@ -1,0 +1,28 @@
+Ejercicio 56. ¿Qué es una función lambda? ¿Para qué sirve el operador de flecha (arrow operator)?
+
+
+una expresión lambda puede ser sintácticamente más simple que una función nombrada.
+ Las funciones lambda son muy comunes en la programación funcional y otros lenguajes con funciones de primera 
+ clase,
+
+una expresion lambda tiene dos formas
+
+ 1.- Lambda de expresión
+Una lambda de expresión que tiene una expresión como cuerpo:
+
+(input-parameters) => expression
+
+Una expresión lambda con una expresión en el lado derecho del operador se denomina lambda de expresión. 
+Las lambdas de expresión se usan ampliamente en la construcción de árboles de expresión.
+
+2. Lambda de instrucción
+Una lambda de instrucción que tiene un bloque de instrucciones como cuerpo:
+
+(input-parameters) => { <sequence-of-statements> }
+
+Como ves, las lambdas de instrucción son similares a las lambdas de expresión, salvo que las instrucciones
+ se encierran entre llaves
+ 
+
+
+ El operador de expresión lambda (=>) define una expresión lambda

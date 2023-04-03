@@ -1,0 +1,18 @@
+Ejercicio 70. ¿Cómo crear una función para representar un objeto/entidad?
+
+// Funciones constructores: sirven como plantilla/blueprint para la creación de objetos.
+
+function NombreClase(atributo1, atributo2, atributoN) {
+    this.atributo1 = atributo1;
+    this.atributo2 = atributo2;
+    this.atributoN = atributoN;
+
+    this.mostrardatos = function() {
+        console.log(this.atributo1, this.atributo2, this.N)
+    }
+}
+
+let miObjeto = new NombreClase('A', 'B', 1000);
+
+console.log(miObjeto.atributo1);
+miObjeto.mostrardatos();

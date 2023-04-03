@@ -1,0 +1,15 @@
+¿Qué es una función?
+
+Se reciben parámetros para calcular el resultado al que queremos llegar.
+Es necesario declarar variables y usar fórmulas.
+
+Una función es un conjunto de instrucciones que realizan una tarea en específico.
+Una función puede o no requerir parámetros, y opcionalmente retornar un valor.
+
+Esto último quiere decir que la sentencia return es opcional en una función.
+
+- ¿Por qué son importantes las funciones?
+
+Las funciones son importantes porque promueven la reutilización de código.
+
+Cuando se utilizan funciones como prompt(), Math.floor(), alert(), confirm(), generarPrimos(), etc. se está promoviendo la reutilización de código.

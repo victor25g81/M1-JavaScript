@@ -1,0 +1,6 @@
+Ejercicio 57. ¿En dónde se pueden aplicar las funciones anónimas y expresiones de flecha?
+
+ Las funciones anónimas se pueden usar como argumento para otras funciones o como una ejecución de función 
+ invocada inmediatamente.
+
+las expresiones de flecha se utilizan cuando vamos a crear o utilizar una funcion lambda. 

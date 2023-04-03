@@ -1,0 +1,7 @@
+Ejercicio 54. ¿Qué es una función nombrada?
+
+es la más tradicional usando la palabra clave function y otorgándole un nombre a la función.
+
+function ejemplodefuncion(parametro){
+    //codigo javascript
+}

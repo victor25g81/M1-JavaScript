@@ -1,0 +1,20 @@
+//Ejercicio 79. ¿Cuál es el rol de HTML en un sitio Web?
+
+El rol de HTML en un sitio web es definir la estructura y el contenido de la página web. Es el lenguaje 
+fundamental para la creación de cualquier página web, ya que permite definir los elementos que componen la 
+página, como texto, imágenes, enlaces, formularios, tablas, entre otros.
+
+HTML es el lenguaje que se utiliza para crear la estructura de la página, es decir, el esqueleto de la página
+ web. Define cómo se organizarán los diferentes elementos en la página y cómo se relacionarán entre sí.
+
+Además, HTML permite que el contenido de la página web sea accesible y legible por los motores de búsqueda
+ y por los diferentes dispositivos y navegadores que los usuarios puedan utilizar para acceder a la página.
+
+En resumen, el rol de HTML es esencial para la creación de cualquier sitio web, ya que es el lenguaje que 
+permite definir la estructura y el contenido de la página web, lo que hace posible su visualización y 
+navegación.
+
+
+
+
+Re

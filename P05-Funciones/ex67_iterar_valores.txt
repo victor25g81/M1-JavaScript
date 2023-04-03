@@ -1,0 +1,31 @@
+Ejercicio 67. ¿Cómo iterar los valores de un objeto?
+
+ puedes iterar los valores de un objeto utilizando el método 
+ 
+ Object.values().
+
+
+const miObjeto = { a: 1, b: 2, c: 3 };
+
+for (const value of Object.values(miObjeto)) {
+  console.log(value); // Imprime 1, 2 y 3 en consola
+}
+
+
+utilizamos el método Object.values() para obtener un arreglo de los valores del objeto miObjeto, y 
+luego iteramos ese arreglo utilizando un bucle for...of. La variable value toma el valor de cada elemento 
+del arreglo en cada iteración del bucle.
+
+También puedes iterar los valores de un objeto utilizando un bucle for...in y accediendo a cada valor utilizando 
+la llave correspondiente, por ejemplo:
+
+const miObjeto = { a: 1, b: 2, c: 3 };
+
+for (const key in miObjeto) {
+  const value = miObjeto[key];
+  console.log(value); // Imprime 1, 2 y 3 en consola
+}
+
+En este ejemplo, utilizamos un bucle for...in para iterar las llaves del objeto miObjeto, y dentro del bucle, 
+accedemos al valor correspondiente de cada llave utilizando la sintaxis de corchetes (miObjeto[key]). 
+La variable value toma el valor correspondiente a cada llave en cada iteración del bucle

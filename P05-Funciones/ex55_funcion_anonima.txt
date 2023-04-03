@@ -1,0 +1,10 @@
+Ejercicio 55. ¿Qué es una función anónima y para qué sirve
+
+simplemente, asignar una función anónima a una variable para trabajar con ella,
+ ejemplo;
+
+ var miFunc = function() {
+   .... //Código de la función
+}
+
+var miFunc2 = miFunc;
