@@ -1,0 +1,3 @@
+Ejercicio 89. El objeto document tiene la función write(), ¿para qué sirve ésta?
+
+El método write del objeto document en JavaScript permite escribir contenido HTML o texto en la página web mientras se carga o después de haber sido cargada.

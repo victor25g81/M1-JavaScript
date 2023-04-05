@@ -1,0 +1,3 @@
+Ejercicio 88. ¿Qué representa y para qué sirve el objeto document en JavaScript?
+
+es el objeto que representa el documento HTML cargado en la ventana del navegador y permite acceder y manipular los elementos del DOM.

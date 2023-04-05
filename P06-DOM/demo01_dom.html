@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo DOM</title>
+</head>
+<body>
+    <h3>Datos de un empleado</h3>
+    <form id="frmDatos">
+        <label for="identificador">ID:</label><br>
+        <input type="text" name="identificador" id="identificador"><br>
+        <label for="nombreCompleto">Nombre completo:</label><br>
+        <input type="text" name="nombreCompleto" id="nombreCompleto"><br>
+        <label for="salario">Salario:</label><br>
+        <input type="text" name="salario" id="salario"><br>
+        <input type="submit" value="Guardar">
+    </form>
+    <br>
+    <br>
+    <h3>Registros de empleados</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre completo</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>Adrián Pérez</td>
+                <td>1000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        window.onload = function(event) {
+            document.querySelector('#frmDatos').addEventListener('submit', agregarEmpleado);
+        }
+
+        function agregarEmpleado(event) {
+            event.preventDefault();
+
+            const identificador = document.querySelector('#identificador').value;
+            const nombreCompleto = document.querySelector('#nombreCompleto').value;
+            const salario = document.querySelector('#salario').value;
+
+            const tbody = document.querySelector('tbody');
+
+            const tr = document.createElement('tr');
+            
+            const tdId = document.createElement('td');
+            tdId.appendChild(document.createTextNode(identificador))
+            tr.appendChild(tdId);
+            
+            const tdNombreCompleto = document.createElement('td');
+            tdNombreCompleto.appendChild(document.createTextNode(nombreCompleto))
+            tr.appendChild(tdNombreCompleto);
+            
+            const tdSalario = document.createElement('td');
+            tdSalario.appendChild(document.createTextNode(salario))
+            tr.appendChild(tdSalario);
+
+            tbody.appendChild(tr);
+        }
+    </script>
+</body>
+</html>

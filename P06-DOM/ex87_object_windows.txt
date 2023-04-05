@@ -1,0 +1,19 @@
+Ejercicio 87. ¿Cuáles eventos están disponibles sobre el objeto window?
+
+1.- document: es el objeto que representa el documento HTML cargado en la ventana del navegador y permite acceder y manipular los elementos del DOM.
+
+2.- location: proporciona información sobre la URL actual y permite navegar a otras páginas web.
+
+3.- history: proporciona una lista de las páginas web visitadas recientemente y permite navegar hacia atrás y hacia adelante a través de ellas.
+
+4.- navigator: proporciona información sobre el navegador web utilizado para ver la página, como el nombre y la versión del navegador, y la plataforma y el idioma del usuario.
+
+5.- screen: proporciona información sobre la pantalla del usuario, como su resolución y profundidad de color.
+
+6.- localStorage y sessionStorage: proporcionan una forma de almacenar datos localmente en el navegador del usuario.
+
+7.- setTimeout y setInterval: permiten programar la ejecución de código JavaScript en un momento posterior o repetidamente en intervalos de tiempo regulares.
+
+8.- alert, confirm y prompt: son métodos que permiten mostrar cuadros de diálogo al usuario para obtener información o confirmar acciones.
+
+9.- open y close: permiten abrir y cerrar ventanas del navegador.

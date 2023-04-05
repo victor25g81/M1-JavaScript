@@ -1,0 +1,23 @@
+Ejercicio 86. ¿Cómo detectar la carga del DOM con JavaScript?
+
+Para detectar la carga del DOM (Document Object Model) con JavaScript, se puede utilizar el evento 
+DOMContentLoaded que se dispara cuando el navegador ha terminado de construir el árbol DOM de la página web.
+
+Para utilizar el evento DOMContentLoaded, se puede agregar un listener en el objeto document de la siguiente manera:
+
+document.addEventListener('DOMContentLoaded', function() {
+  // código que se ejecutará después de que se haya cargado el DOM
+});
+
+
+El código dentro de la función anónima se ejecutará una vez que el DOM de la página haya sido completamente
+ cargado por el navegador. Este enfoque es preferible al uso del evento load para detectar la carga completa 
+ de la página, ya que DOMContentLoaded se dispara antes de que se carguen las imágenes y otros recursos, 
+ lo que puede mejorar significativamente el tiempo de carga de la página y la experiencia del usuario.
+
+ También es posible utilizar la biblioteca jQuery para detectar la carga del DOM con el método $(document).ready(). Por ejemplo:
+
+$(document).ready(function() {
+  // código que se ejecutará después de que se haya cargado el DOM
+});
+
