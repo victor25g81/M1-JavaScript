@@ -1,0 +1,16 @@
+Ejercicio 91. ¿Cómo se selecciona el ID de un elemento con document.querySelector()?
+
+Para seleccionar el ID de un elemento con document.querySelector(), debes usar el símbolo "#" 
+seguido del nombre del ID del elemento que deseas seleccionar.
+
+Por ejemplo, si tienes un elemento HTML con el ID "miElemento", puedes seleccionarlo de la siguiente manera:
+
+const miElemento = document.querySelector("#miElemento");
+
+
+En este caso, la cadena "#miElemento" se pasa como argumento a la función document.querySelector(), 
+que buscará en el documento HTML el elemento con el ID "miElemento" y lo asignará a la variable miElemento.
+
+Es importante tener en cuenta que los IDs en HTML deben ser únicos dentro de un documento. Por lo tanto, 
+si hay varios elementos con el mismo ID, document.querySelector() seleccionará solo el primer elemento que
+ encuentre con ese ID.

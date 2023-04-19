@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de document.querySelectorAll()</title>
+  </head>
+  <body>
+    <h1 class="mi-clase">Demo de querySelectorAll()</h1>
+
+    <div class="mi-clase">Elemento 1</div>
+    <div class="mi-clase">Elemento 2</div>
+    <div class="mi-clase">Elemento 3</div>
+    <div class="mi-clase">Elemento 4</div>
+    
+    <script>
+      const elementos = document.querySelectorAll("div.mi-clase"); // Selecciona todos los elementos con la clase "mi-clase"
+      
+      elementos.forEach((elemento) => { // Itera sobre cada elemento y cambia su color de fondo a rojo
+        elemento.style.backgroundColor = "red";
+      });
+    </script>
+  </body>
+</html>

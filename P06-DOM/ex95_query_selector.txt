@@ -1,0 +1,12 @@
+Ejercicio 95. ¿Para qué sirve el método document.querySelectorAll()?
+
+
+El método document.querySelectorAll() se utiliza para seleccionar uno o varios elementos del documento HTML 
+que coincidan con un selector CSS específico. Este método devuelve una lista de todos los elementos que 
+coinciden con el selector CSS.
+
+La sintaxis de document.querySelectorAll() es similar a la de document.querySelector(). Sin embargo, en lugar
+ de devolver solo el primer elemento que coincide con el selector CSS, devuelve una lista (objeto NodeList) de
+  todos los elementos que coinciden con el selector.
+
+  

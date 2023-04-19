@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Html</title>
+</head>
+<body id="seccion1">
+
+    <p>Bienvenido a mi pagina web</p>
+    <p>Tenemos las mejores herramientas</p>
+    <p>Contamos con la capacidad para asesorarte</p>
+    <p>Tenemos las mejores marcas del producto</p>
+    <p>Atendemos tus Solicitudes</p>
+    <p>Viariedad de Productos</p>
+    <p>Computadoras</p>
+    <p>Monitores</p>
+    <p>Dispositivos de almacenamiento</p>
+    <p>MacBook Air y Pro</p>
+    <script>
+        window.onload = function(event) {
+            //const body = document.querySelector('#seccion1');
+            //body.style.backgroundColor='blue';
+
+            const elementos = document.querySelectorAll("p");
+            elementos.forEach((elemento)=> {
+
+                //elemento.style.backgroundColor = "red";
+                elemento.style.fontFamily = "Verdana";
+
+            });
+
+            const parrafos = document.querySelectorAll("p");
+
+                for(i = 0; i < parrafos.length; i++){
+                    if(i % 2 === 0){
+                        parrafos[i].style.color = "green"; 
+                        }
+                        else 
+                        if(i % 2 !== 0);
+                        parrafos[i].style.fontSize = "8px";
+                    
+                }
+
+               
+           // });
+        }
+    </script>
+</body>
+</html>

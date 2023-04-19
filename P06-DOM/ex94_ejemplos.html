@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 94</title>
+</head>
+<body id="principal">
+    <h1>Demo Selectores con document.querySelector()</h1>
+
+    <div class="redondeado borde">
+        <p>Esta es una demostración de uso de la función querySelector() del objeto document. Esta función nos facilita seleccionar un sólo elemento de la interfaz de la aplicación Web.</p>
+        <p>También existe la función querySelectorAll().</p>
+    </div>
+
+    <button id="cambiarColorFondo">Cambiar color fondo</button>
+
+    <script>
+        window.onload = function(event) {
+            const body = document.querySelector('#principal');
+            body.style.backgroundColor = '#0f0';
+
+            const div = document.querySelector("div.redondeado.borde");
+            div.style.border = '2px solid white';
+
+            const p = document.querySelector("p"); 
+            p.style.fontSize= "25px";
+
+            document.querySelector('#cambiarColorFondo').addEventListener('click', function(e) {
+                document.querySelector('#principal').style.backgroundColor = 'gray';
+            })
+        }
+    </script>
+</body>
+</html>

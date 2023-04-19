@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo Html</title>
+  </head>
+  <body id="seccion1">
+    <p>Bienvenido a mi pagina web</p>
+    <p>Tenemos las mejores herramientas</p>
+    <p>Contamos con la capacidad para asesorarte</p>
+    <p>Tenemos las mejores marcas del producto</p>
+    <p>Atendemos tus Solicitudes</p>
+    <p>Viariedad de Productos</p>
+    <p>Computadoras</p>
+    <p>Monitores</p>
+    <p>Dispositivos de almacenamiento</p>
+    <p>MacBook Air y Pro</p>
+    <script>
+      window.onload = function (event) {
+        //const body = document.querySelector('#seccion1');
+        //body.style.backgroundColor='blue';
+
+        const elementos = document.querySelectorAll("p");
+        elementos.forEach((elemento) => {
+          //elemento.style.backgroundColor = "red";
+          elemento.style.fontFamily = "Verdana";
+        });
+
+        // Ejercicio 99
+        const parrafos = document.querySelectorAll("p:nth-child(even)");
+        parrafos.forEach((e) => (e.style.color = "green"));
+
+        /*for (i = 0; i < parrafos.length; i++) {
+          if (i % 2 === 0) {
+            parrafos[i].style.color = "green";
+          }
+        }*/
+
+        const parrafos_tamaño = document.querySelectorAll("p:nth-child(odd)");
+        parrafos_tamaño.forEach((e) => (e.style.fontSize = "18px"));
+
+        /* for (i = 0; i < parrafos_tamaño.length; i++) {
+          if (i % 2 !== 0) {
+            parrafos_tamaño[i].style.fontSize = "8px";
+          }
+        }*/
+
+        const fondo_parrafos = document.querySelectorAll("p:nth-child(3n)");
+        fondo_parrafos.forEach((e) => (e.style.backgroundColor = "red"));
+
+        /*for (i = 0; i < fondo_parrafos.length; i++) {
+          if (i % 3 === 0) {
+            fondo_parrafos[i].style.backgroundColor = "red";
+          }
+        }*/
+
+        const tamaño_fuente = document.querySelectorAll("p:nth-child(5n)");
+        tamaño_fuente.forEach((e) => (e.style.fontSize = "30px"));
+
+        /*for (i = 0; i < tamaño_fuente.length; i++) {
+          if (i % 5 === 0) {
+            tamaño_fuente[i].style.fontSize = "18px";
+          }
+        }*/
+
+        // });
+      };
+    </script>
+  </body>
+</html>

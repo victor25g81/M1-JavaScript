@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boton con JQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){ /*se utiliza $(document).ready() para asegurarse de que el código se ejecuta después de que se haya cargado la página.*/
+            $('#btn-sumar').click(function(){ /*Se utiliza $('#sum-btn').click() para detectar la pulsación del botón con id "sum-btn".*/
+            /*Dentro de la función del evento de click, se obtienen los valores de los campos de entrada con 
+            $('#num1').val() y $('#num2').val()*/
+            var numero1 = parseFloat($('#numero1').val());  // jQuery
+            // JavaScript Normal:
+            // var numero1 = parseFloat(document.querySelector('#numero1').value);
+            var numero2 = parseFloat($('#numero2').val());
+            var resultado = numero1 + numero2;
+            $('#resultado').val(resultado);/*Finalmente, se utiliza $('#resultado').val() para establecer el valor del campo de salida con el resultado de la suma.*/
+        });
+    });
+    </script>
+</head>
+<body>
+    <input type="numero" id="numero1">
+    <input type="numero" id="numero2">
+    <button id="btn-sumar">Sumar</button>
+    <input type="text" id="resultado" readonly>
+</body>
+</html>

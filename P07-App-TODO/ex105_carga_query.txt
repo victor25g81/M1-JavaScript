@@ -1,0 +1,51 @@
+Ejercicio 105. Detectar la carga de un documento con jQuery.
+
+Para detectar la carga completa de un documento con jQuery, puedes utilizar el método ready() de la biblioteca. 
+Este método se ejecuta cuando el documento HTML se ha cargado completamente en el navegador y todos los elementos
+de la página están disponibles para ser manipulados.
+
+Para utilizar el método ready(), simplemente envuelve el código que deseas ejecutar en una función y pásala como
+ argumento al método ready(). Aquí hay un ejemplo básico:
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Este código se ejecutará cuando el documento se haya cargado completamente
+      alert("El documento se ha cargado completamente");
+    });
+  </script>
+</head>
+<body>
+  <h1>Bienvenidos a mi sitio web!</h1>
+</body>
+</html>
+
+En este ejemplo, hemos envuelto el código de alerta en una función anónima y la hemos pasado como argumento al 
+método ready() de jQuery. Cuando el documento HTML se carga completamente en el navegador, la función se ejecuta 
+y se muestra la alerta.
+
+También puedes abreviar el uso del método ready() utilizando una sintaxis más corta. En lugar de envolver tu 
+código en una función, puedes pasar tu código directamente como argumento al método ready(). Aquí hay un ejemplo:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(function() {
+      // Este código se ejecutará cuando el documento se haya cargado completamente
+      alert("El documento se ha cargado completamente");
+    });
+  </script>
+</head>
+<body>
+  <h1>Bienvenidos a mi sitio web!</h1>
+</body>
+</html>
+
+En este ejemplo, hemos utilizado la sintaxis abreviada de $(function() {...}) para ejecutar el código cuando el
+documento se carga completamente. Esto es equivalente a usar $(document).ready(function() {...}).

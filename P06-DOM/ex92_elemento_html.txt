@@ -1,0 +1,12 @@
+Ejercicio 92. ¿Cómo se selecciona un elemento por su nombre de etiqueta con document.querySelector()?
+
+Para seleccionar un elemento por su nombre de etiqueta con document.querySelector(), debes usar el nombre de 
+la etiqueta HTML del elemento que deseas seleccionar.
+
+Por ejemplo, si tienes varios elementos div en tu página y deseas seleccionar el primero de ellos, puedes 
+hacer lo siguiente:
+
+const primerDiv = document.querySelector("div");
+
+En este caso, la cadena "div" se pasa como argumento a la función document.querySelector(), que buscará en el 
+documento HTML el primer elemento div y lo asignará a la variable primerDiv.

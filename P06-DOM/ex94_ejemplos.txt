@@ -1,0 +1,8 @@
+Ejercicio 94. Dar un ejemplo por cada uno de los casos anteriores.
+
+ex91.- const miElemento = document.querySelector("#miElemento");
+
+ex92.- const primerDiv = document.querySelector("div");
+
+ex93.- const miElemento = document.querySelector(".miClase");
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Con Jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('p').css('font-family', 'Arial, sans-serif');/*cambia el tipo de fuente a los parrafos*/
+            $('p:nth-child(even)').css('color', 'green');/*cambia color de fuente a los parrafos pares*/
+            $('p:nth-child(odd)').css('font-size', '8px');/*cambia el tamaño de fuente a los parrafos impares*/
+            $('p:nth-child(3n)').css('backgroundColor', 'red');/*para las posiciones divisibles de 3, cambiar color de fondo a rojo*/
+            $('p:nth-child(5n)').css('font-size', '50px');/*posiciones divisibles de 5, cambiar tamañao a 18px*/
+        }); /*mi duda es porque en el atributo fon-size linea 13 si funciona con guion y en la linea 15 funciona sin guion*/
+	
+	</script>
+</head>
+  <body id="seccion1">
+    <p>Bienvenido a mi pagina web</p>
+    <p>Tenemos las mejores herramientas</p>
+    <p>Contamos con la capacidad para asesorarte</p>
+    <p>Tenemos las mejores marcas del producto</p>
+    <p>Atendemos tus Solicitudes</p>
+    <p>Viariedad de Productos</p>
+    <p>Computadoras</p>
+    <p>Monitores</p>
+    <p>Dispositivos de almacenamiento</p>
+    <p>MacBook Air y Pro</p>
+
+</body>
+</html>

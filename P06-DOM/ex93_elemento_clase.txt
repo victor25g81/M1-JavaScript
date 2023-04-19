@@ -1,0 +1,9 @@
+Ejercicio 93. ¿Cómo se selecciona un elemento a partir de una de sus clases (especificadas en el atributo class) 
+de etiqueta con document.querySelector()?
+
+Para seleccionar un elemento a partir de una de sus clases (especificadas en el atributo class) con document.
+querySelector(), debes usar el símbolo "." seguido del nombre de la clase del elemento que deseas seleccionar.
+
+Por ejemplo, si tienes un elemento HTML con la clase "miClase", puedes seleccionarlo de la siguiente manera:
+
+const miElemento = document.querySelector(".miClase");

@@ -1,0 +1,8 @@
+Ejercicio 103. ¿Qué es jQuery? ¿Para qué sirve?.
+
+jQuery es una biblioteca de JavaScript que se utiliza para simplificar la manipulación y el procesamiento 
+de documentos HTML, así como para simplificar el desarrollo de aplicaciones web interactivas y dinámicas.
+
+jQuery es una biblioteca muy popular y ampliamente utilizada en la web, lo que significa que hay una gran 
+cantidad de documentación y recursos disponibles en línea para ayudar a los desarrolladores a aprender y 
+utilizar esta herramienta de manera efectiva.

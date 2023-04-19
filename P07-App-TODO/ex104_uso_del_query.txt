@@ -1,0 +1,46 @@
+Ejercicio 104. ¿Cómo usar jQuery en un documento HTML?
+
+Para usar jQuery en un documento HTML, primero debes descargar la biblioteca jQuery desde el sitio web oficial
+ de jQuery (https://jquery.com/) y agregarla a tu archivo HTML.
+
+ Puedes descargar jQuery de dos maneras diferentes:
+
+1.- Descarga jQuery desde el sitio web oficial de jQuery y guárdalo en tu proyecto. Luego, agrega una etiqueta 
+<script> en tu archivo HTML que haga referencia a la ubicación de la biblioteca jQuery que acabas de descargar:
+
+<head>
+  <script src="ruta/a/jquery.js"></script>
+</head>
+
+
+2.- Puedes cargar jQuery directamente desde un servidor de contenido CDN (Content Delivery Network) como 
+Google o Microsoft. Para hacerlo, agrega la siguiente línea de código en la sección <head> de tu archivo HTML:
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+Una vez que hayas agregado jQuery a tu archivo HTML, puedes utilizar sus funciones para manipular los elementos
+de la página. Por ejemplo, puedes seleccionar un elemento HTML utilizando la función $(), que es una abreviatura
+para jQuery(). Luego, puedes utilizar los métodos proporcionados por jQuery para manipular ese elemento.
+Aquí hay un ejemplo básico:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <h1 id="titulo">Hola Mundo!</h1>
+
+  <script>
+    // Seleccionar el elemento h1 con el ID "titulo" y cambiar su contenido
+    $("#titulo").text("Bienvenidos a mi sitio web!");
+  </script>
+</body>
+</html>
+
+
+En este ejemplo, utilizamos la función $() para seleccionar el elemento HTML con el ID "titulo". Luego,
+utilizamos el método .text() de jQuery para cambiar el contenido de ese elemento a "Bienvenidos a mi sitio 
+web!".
